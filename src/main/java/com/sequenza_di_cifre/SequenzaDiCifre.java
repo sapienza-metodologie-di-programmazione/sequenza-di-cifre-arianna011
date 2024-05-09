@@ -17,7 +17,7 @@ public class SequenzaDiCifre
 	 */
 	public void aggiungiCifre(String s, int N) {
 		
-		//if (N < 0) throw new IllegalArgumentException(String.valueOf(N));
+		if (N < 0) throw new IllegalArgumentException(String.valueOf(N));
 		
 		ArrayList<Character> l = new ArrayList<Character>();
 		
