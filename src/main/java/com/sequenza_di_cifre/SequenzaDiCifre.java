@@ -1,4 +1,5 @@
 package com.sequenza_di_cifre;
+import java.util.ArrayList;
 
 /**
  * Classe che implementa una sequenza di cifre (di tipo char)
